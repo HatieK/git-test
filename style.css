@@ -11,6 +11,10 @@ html {
 
 /* HEADER */
 
+.body {
+  background-color: orange;
+}
+
 .header {
   background: #f8e1db;
   padding: 10px 70px;
