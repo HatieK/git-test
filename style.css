@@ -1,0 +1,133 @@
+html {
+  font-size: 1.6rem;
+}
+
+* {
+  font-size: 62.5%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* HEADER */
+
+.header {
+  background: #f8e1db;
+  padding: 10px 70px;
+}
+
+.nav-list {
+  list-style: none;
+  margin-top: 10px;
+}
+
+.nav-list li {
+  display: inline;
+  margin-right: 40px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #3b3735;
+  font-size: 1.8rem;
+}
+
+/* CAROUSEL */
+.banner {
+  background-image: url(./img/BG.png);
+  background-size: cover;
+  background-position: center;
+  height: 800px;
+}
+
+/* ACTIVITIES */
+.activities {
+  background: #faf4f2;
+  text-align: center;
+  padding: 80px 0;
+}
+
+.activities-heading__title {
+  font-size: 2.4rem;
+  color: #8d8d8d;
+  font-weight: 600;
+}
+.activities-item {
+  width: 25%;
+  float: left;
+  padding: 20px;
+}
+
+.activities-card {
+  background: #fff;
+  padding: 40px;
+  border-radius: 24px;
+}
+
+.clear {
+  clear: both;
+}
+
+.card-img {
+  position: relative;
+}
+
+.activities-icon {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.card-img img {
+  width: 100%;
+  border-radius: 24px;
+}
+
+.activities-cta {
+  border: none;
+  background: #e8e8e8;
+  padding: 10px 25px;
+  border-radius: 25px;
+  text-transform: capitalize;
+}
+
+.activities-body * {
+  margin-top: 20px;
+}
+
+.activities-icon {
+  width: 50px;
+  height: 50px;
+  background: rgba(255, 255, 255, 0.5);
+  /* opacity: 0.7; */
+  line-height: 50px;
+  border-radius: 10px;
+  color: #e76f51;
+}
+.activities-view {
+  background: transparent;
+  border: 1px solid #e76f51;
+  padding: 10px 60px;
+  border-radius: 25px;
+  color: #e76f51;
+}
+
+/* CONTACT */
+.contact__img,
+.contact__desc {
+  width: 50%;
+  float: left;
+  background: #f8e1db;
+  padding: 20px 60px;
+  height: 400px;
+}
+
+.contact__img {
+  background-image: url("./img/mask.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.contact__img img {
+  height: 100%;
+}
